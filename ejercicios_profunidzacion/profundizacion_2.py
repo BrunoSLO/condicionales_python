@@ -23,3 +23,22 @@ Para cada caso imprimir el resultado en pantalla.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = int(input("ingrese numero:")) 
+numero_2 = int(input("ingrese numero:"))
+numero_3 = int(input("ingrese numero:"))
+
+if numero_1 % 2 == 0:                               # Se utiliza el % para obtener el resto de la division
+    print("el numero", numero_1, "es par")
+else:
+    print("el numero", numero_1, "es impar")
+
+if numero_2 % 2 == 0:
+    print("el numero", numero_2, "es par")
+else:
+    print("el numero", numero_2, "es impar")
+
+if numero_3 % 2 == 0:
+    print("el numero", numero_3, "es par")
+else:
+    print("el numero", numero_3, "es impar")
