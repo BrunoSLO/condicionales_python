@@ -31,9 +31,9 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
 
-temperatura1 = float(input("ingresar temperatura: "))
-temperatura2 = float(input("ingresar temperatura: "))
-temperatura3 = float(input("ingresar temperatura: "))
+temperatura1 = float(input("ingresar temperatura:\n"))
+temperatura2 = float(input("ingresar temperatura:\n"))
+temperatura3 = float(input("ingresar temperatura:\n"))
 
 if temperatura1 > temperatura2 and temperatura1 > temperatura3:
     print("la temperatura maxima ingresada es:", temperatura1)

@@ -24,9 +24,9 @@ Para cada caso imprimir el resultado en pantalla.
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
 
-numero_1 = int(input("ingrese numero:")) 
-numero_2 = int(input("ingrese numero:"))
-numero_3 = int(input("ingrese numero:"))
+numero_1 = int(input("ingrese numero:\n")) 
+numero_2 = int(input("ingrese numero:\n"))
+numero_3 = int(input("ingrese numero:\n"))
 
 if numero_1 % 2 == 0:                               # Se utiliza el % para obtener el resto de la division
     print("el numero", numero_1, "es par")
