@@ -20,9 +20,9 @@ numero_2 = int(input('Ingrese el segundo número:\n'))
 # Imprima en pantalla según corresponda
 
 if numero_1 > numero_2:
-    print("el numero", numero_1, "es mayor a el numero", numero_2)
+    print("el numero", numero_1, "es mayor al numero", numero_2)
 else:
-    print("el numero", numero_2, "es mayor a el numero", numero_1)
+    print("el numero", numero_2, "es mayor al numero", numero_1)
 
 # Verifique si el numero_1 positivo, negativo o cero
 # Imprima el resultado en cada caso
@@ -47,8 +47,6 @@ else:
 # Imprima en pantalla si se cumple o no la condición
 
 if numero_1 < 10 or numero_2 > -2:
-    print("el numero {} es menor a 10".format(numero_1))
-    print("el numero {} es mayor a -2".format(numero_2))
+    print("Se cumple la condicion")
 else:
-    print("el numero {} es mayor a 10".format(numero_1))
-    print("el numero {} es menor a -2".format(numero_2))
+    print("No se cumple la condicion")

@@ -21,7 +21,7 @@ texto_2 = str(input('Ingrese la segunda palabra:\n'))
 if texto_1 > texto_2:
     print("la palabra {} es mayor alfabeticamente a {}".format(texto_1, texto_2))
 else:
-    print("la palabra {} es menor alfabeticamente a {}".format(texto_1, texto_2)) 
+    print("la palabra {} es mayor alfabeticamente a {}".format(texto_2, texto_1)) 
 
 # Compare cual de las dos palabras tiene mayor
 # cantidad de letras
@@ -34,12 +34,10 @@ else:
 # es mayor a la primera letra de la segunda palabra
 # Imprima en pantalla según corresponda
 
-if texto_1 > texto_2:
-    print("{} es mayor a {}".format(texto_1[0], texto_2[0]))
-elif texto_1 == texto_2:
-    print("{} es igual a {}".format(texto_1[0], texto_2[0]))
+if texto_1[0] > texto_2[0]:
+    print("la letra {} es mayor a la letra de {}".format(texto_1[0], texto_2[0]))
 else:
-    print("{} es menor a {}".format(texto_1[0], texto_2[0]))
+    print("la letra {} es mayor a la letra de {}".format(texto_2[0], texto_1[0]))
 
 copia_texto_1 = texto_1 # Copia de la variable texto_1
 

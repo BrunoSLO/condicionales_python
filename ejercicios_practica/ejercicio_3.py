@@ -28,12 +28,13 @@ if numero_1 > 5:
     else:
         print("el numero {} es mayor a 5 y el numero {} es negativo".format(numero_1, numero_2))
 else: 
-     print("el numero es menor a 5")
+     print("el numero {} es menor a 5".format(numero_1))
+
 if numero_1 < 5:
     if numero_2 > 5:
         print("el numero {} es menor a 5 y el numero {} mayor a 5".format(numero_1, numero_2))
     else:
-        print("el numero {} es menor a 5 y el numero {} mayor a 5".format(numero_1, numero_2))
+        print("el numero {} es menor a 5 y el numero {} menor a 5".format(numero_1, numero_2))
 
 # Verifique la calificación de un estudiante según su
 # puntaje en un examen
